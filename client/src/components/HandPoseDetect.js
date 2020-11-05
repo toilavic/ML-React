@@ -13,12 +13,12 @@ import React, { useRef, useState, useEffect } from "react";
 import * as tf from "@tensorflow/tfjs";
 import * as handpose from "@tensorflow-models/handpose";
 import Webcam from "react-webcam";
-import { drawHand } from "./handpose/utilities";
+import { drawHand } from "./componentUtilities/utilitiesFinger";
 
 ///////// NEW STUFF IMPORTS
 import * as fp from "fingerpose";
-import victory from "./handpose/victory.png";
-import thumbs_up from "./handpose/thumbs_up.png";
+import victory from "./componentUtilities/victory.png";
+import thumbs_up from "./componentUtilities/thumbs_up.png";
 ///////// NEW STUFF IMPORTS
 
 function HandPoseDetect() {

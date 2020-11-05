@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Segmentation from './components/Segmentation'
 import PhotoDetector from './components/PhotoDetector'
 import HandPoseDetect from './components/HandPoseDetect';
-
+import FaceLandMark from './components/FaceLandMark';
 
 class App extends Component {
     constructor(props) {
@@ -25,6 +25,7 @@ class App extends Component {
                         <Route path="/segmentation" exact render={ routeProps => <Segmentation {...routeProps}/>}/>
                         <Route path="/photodetect" exact render={ routeProps => <PhotoDetector {...routeProps}/>}/>
                         <Route path="/handpose" exact render={ routeProps => <HandPoseDetect {...routeProps}/>}/>
+                        <Route path="/faceLandMark" exact render={ routeProps => <FaceLandMark {...routeProps}/>}/>
                 </div>  
           </Router>    
         );
