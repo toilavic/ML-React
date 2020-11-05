@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@tensorflow-models/body-pix": "^2.0.5",
+    "@tensorflow-models/handpose": "0.0.6",
     "@tensorflow-models/mobilenet": "^2.0.4",
     "@tensorflow/tfjs": "^2.7.0",
     "@tensorflow/tfjs-node": "^2.7.0",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.8.0",
+    "fingerpose": "0.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",

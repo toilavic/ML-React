@@ -18,6 +18,7 @@ export default class Navbar extends React.Component {
                     <ul className="navbar-nav ml-auto">
                       <li className="nav-item"><Link to="/segmentation" className="nav-link js-scroll-trigger nav-items"><b className="navbar-items">Body Segmentation</b></Link></li>
                       <li className="nav-item"><Link to="/photodetect" className="nav-link js-scroll-trigger nav-items"><b className="navbar-items">Photo detector</b></Link></li>
+                      <li className="nav-item"><Link to="/handpose" className="nav-link js-scroll-trigger nav-items"><b className="navbar-items">Hand Pose Detect</b></Link></li>
                     </ul>
                   </div>
                 </div>

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route} from "react-router-dom";
 import Navbar from './components/Navbar'
 import Segmentation from './components/Segmentation'
 import PhotoDetector from './components/PhotoDetector'
+import HandPoseDetect from './components/HandPoseDetect';
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
                 <div>
                         <Route path="/segmentation" exact render={ routeProps => <Segmentation {...routeProps}/>}/>
                         <Route path="/photodetect" exact render={ routeProps => <PhotoDetector {...routeProps}/>}/>
+                        <Route path="/handpose" exact render={ routeProps => <HandPoseDetect {...routeProps}/>}/>
                 </div>  
           </Router>    
         );

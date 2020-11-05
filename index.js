@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 const server = require("http").Server(app);
 
 app.post("/image", (req, res) => {
-  let form = new formidable.IncomingForm({
+  let form = new formidable.IncomingForm({ //encoding images
     maxFileSize: 10485760, //10MB
   });
 

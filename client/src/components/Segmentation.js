@@ -7,7 +7,7 @@
 // 7. Draw using drawMask
 
 import React, { useRef } from "react";
-// import * as tf from "@tensorflow/tfjs";
+import * as tf from "@tensorflow/tfjs";
 import * as bodyPix from "@tensorflow-models/body-pix";
 import Webcam from "react-webcam";
 
